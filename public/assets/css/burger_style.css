@@ -1,0 +1,29 @@
+body{
+    background: #ffd16e;
+}
+
+#burger_image{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #faebd7;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: #ffd16e;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
