@@ -1,9 +1,15 @@
-
-
-<nl>
-  {{#each burgers}}
+<ol>
+    {{#each burgers}}
     {{!-- {{#if notEaten}}
       {{> cats/cat-block sleep=false}}
     {{/if}} --}}
-  {{/each}}
-</nl>
+    {{/each}}
+</ol>
+
+<center>
+    <form class="createForm">
+        <input type="text" id="burgerName" name="name">
+    </form>
+    <button type="submit">Submit</button>
+    <p>Enter a burger you want to eat by clicking the submit button above.</p>
+</center>

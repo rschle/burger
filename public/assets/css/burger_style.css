@@ -3,11 +3,21 @@ body{
 }
 
 #burger_image{
-    width: 200px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
+h1{
+    font-family: 'Barriecito', cursive;
+    font-size: 40px;
+    color: orangered;
+}
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: orangered;
+}
 li {
     padding: 5px;
     margin: 5px;
@@ -26,4 +36,18 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+  #burgerName{
+      width: 30%;
+      padding: 3%;
+  }
+
+  button{
+      margin-top: 20px;
+      width: 5%;
+      height: 30px;
+      border-radius: 6%;
+      background: #3f7cbc;
+      color: white;
   }
