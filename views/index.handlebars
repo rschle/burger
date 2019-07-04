@@ -1,15 +1,27 @@
-<ol>
-    {{#each burgers}}
-    {{!-- {{#if notEaten}}
-      {{> cats/cat-block sleep=false}}
-    {{/if}} --}}
-    {{/each}}
-</ol>
-
-<center>
-    <form class="createForm">
-        <input type="text" id="burgerName" name="name">
-    </form>
-    <button type="submit">Submit</button>
-    <p>Enter a burger you want to eat by clicking the submit button above.</p>
-</center>
+<div class="row">
+    <div id="firstCol" class="col-md-6">
+        <ul>
+            {{#each burgers}}
+                {{#unless devoured}}
+                {{> burgers/burger-block devoured=true}}
+                {{/unless}}
+            {{/each}}
+        </ul>
+    </div>
+    <div id="secondCol" class="col-md-6">
+        <ul>
+            {{#each burgers}}
+                {{#if devoured}}
+                <li>{{burger_name}}</li>
+                {{/if}}
+            {{/each}}
+        </ul>
+    </div>
+    <center>
+        <form class="createForm">
+            <input type="text" id="burgerName" name="name">
+        </form>
+        <button type="submit">Submit</button>
+        <p>Enter a burger you want to eat by clicking the submit button above.</p>
+    </center>
+</div>
