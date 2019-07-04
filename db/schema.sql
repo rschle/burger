@@ -8,4 +8,5 @@ CREATE TABLE burgers
     PRIMARY KEY (id)
 );
 
-SELECT * FROM burgers
+SELECT * FROM burgers;
+DELETE FROM burgers WHERE id=4;
