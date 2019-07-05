@@ -13,7 +13,7 @@ Homepage Preview
 Technologies
 ------------
 * HTML
-* Handelbars (including the use of partials)
+* Handlebars (including the use of partials)
 * Javascript
 * jQuery
 * Node.js
