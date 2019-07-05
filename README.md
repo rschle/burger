@@ -8,3 +8,4 @@ The Eat-Da-Burger app allows the user to add the names of burgers they want to e
 Preview
 ------------
 
+<img width="1359" alt="burgerFrontPage" src="https://user-images.githubusercontent.com/50416482/60739848-44929780-9f18-11e9-91da-586c08df6bf8.png">
