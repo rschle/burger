@@ -14,21 +14,21 @@ $(function () {
     $(".change-devour").on("click", function (event) {
         event.preventDefault();
         console.log("I've been clicked")
-        // var id = $(this).attr("data-id");
+        var id = $(this).attr("data-id");
         // var newDevour = $(this).data("newdevour")
         // console.log(id);
         // var newDevourState = {
         //     devoured: newDevour
         // }
-        // $.ajax("/api/burgers/" + id, {
-        //     type: "PUT",
-        //     // data: newDevourState
-        // }).then(
-        //     function () {
-        //         console.log("changed devour state to", newDevour)
-        //         location.reload();
-        //     }
-        // )
+        $.ajax("/api/burgers/" + id, {
+            type: "PUT",
+            // data: newDevourState
+        }).then(
+            function () {
+                // console.log("changed devour state to", newDevour)
+                location.reload();
+            }
+        )
     });
 
 });

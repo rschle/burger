@@ -9,4 +9,4 @@ CREATE TABLE burgers
 );
 
 SELECT * FROM burgers;
-DELETE FROM burgers WHERE id=4;
+DELETE FROM burgers WHERE id=5;

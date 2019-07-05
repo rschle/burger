@@ -7,6 +7,9 @@
     <div class="container">
         <div id="firstCol" class="col-sm-6">
             <ul>
+                <h3>
+                    Menu
+                </h3>
                 {{#each burgers}}
                 {{#unless devoured}}
                 {{> burgers/burger-block devoured=true}}
@@ -16,9 +19,12 @@
         </div>
         <div id="secondCol" class="col-sm-6">
             <ul>
+                <h3>
+                    Devoured Burgers
+                </h3>
                 {{#each burgers}}
                 {{#if devoured}}
-                <li>{{burger_name}}</li>
+                <li class="devouredList"><i class="fas fa-utensils"></i> {{burger_name}}</li>
                 {{/if}}
                 {{/each}}
             </ul>
